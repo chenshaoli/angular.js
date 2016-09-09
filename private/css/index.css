@@ -1,0 +1,601 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+	    /*background: url(http://cdn2.dameicdn.com/private-tour/img/private_bg.jpg) repeat;*/
+}
+
+#content{
+	width:100%;
+	position: relative;
+}
+
+#content>div{
+	width: 1100px;
+	position: relative;
+    /*margin: 0 auto;*/
+    left: -411px;
+}
+#content div img{
+	margin-top:-5px;
+}
+#content div img:nth-child(4){
+	margin-top: -6px;
+}
+
+
+#content div img:nth-child(8){
+	position: absolute;
+	top:1450px;
+	left:97px;
+}
+
+
+
+
+#content .cycle{
+	width:1100px;
+	position: absolute;
+	left:411px;
+    top:2560px;
+}
+.menu{
+	position: relative;
+	height: 1900px;
+	width: 1100px;
+	/*left: 411px;*/
+	top:-810px;
+	/*border: 1px solid red;*/
+}
+
+.trip_date{
+	width: 100%;
+	display: block;
+	margin-left: -12px;
+}
+
+.bj{
+	background-color: #b99952;
+}
+#filterAll{
+	border-bottom: 3px solid #b99952;
+	width: 100%;
+	height:50px;
+}
+.inner_list_01{
+	width:100%;
+	height:100px;
+	/*border:1px solid red;*/
+	position: relative;
+	left:0px;
+	font-size: 30px;
+
+
+}
+.inner_list_02{
+	width:100%;
+	/*height:1000px;*/
+	/*border:1px solid red;*/
+	position: relative;
+	left:0px;
+	font-size: 30px;
+
+
+}
+
+
+
+.font{
+	width:100%;
+	height:100px;
+	
+	
+}
+
+
+
+
+.fonta{
+	width:200px;
+	position: relative;
+	color:#ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	top:37px;
+}
+
+ .font a{
+	position: relative;
+	color: #d9c298;
+	font-size:19px;
+    /*border: 1px solid red;*/
+    text-decoration: none;
+    text-align: center;
+    left:77px;
+    top:50px;
+}
+
+
+.bottom_01{
+ top:800px;
+    height:621px;
+    position: relative;
+    width: 100%;
+    background: url('../img/私家包团-2_01_03.jpg') repeat;
+}
+
+
+#bottom_01 div{
+	 width: 1100px;
+	 top:50px;
+}
+
+
+#bottom_01 div div{
+  
+	position: absolute;
+	width: 1500px;
+	top:157px;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	/*border:1px solid red;*/
+}
+#bottom_01 div:nth-child(2){
+	position: relative;
+	width: 1500px;
+	top:99px;
+	left: 20px;
+	/*border: 1px solid red;*/
+};
+
+
+/*复制*/
+
+#private_tour>div {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: -3px;
+}
+#private_tour>.container {
+    width: 100%;
+    background: url(http://cdn2.dameicdn.com/private-tour/img/private_bg.jpg) repeat;
+ 
+}
+.inner_list_item {
+    position: relative;
+    width: 1100px;
+    background-color: #FFFFFF;
+    height: 295px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    top:22px;
+}
+.inner {
+    width: 1100px;
+    margin-top: 15px;
+    margin: 0 auto;
+}
+.inner_list>div {
+    position: relative;
+}
+.inner_list_left {
+    width: 702px;
+}
+
+.inner_list_item>i {
+    display: none;
+}
+.inner_list_item>i {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #D0AE64;
+    font-size: 26px;
+    padding: 2px 22px;
+    background-color: rgba(0,0,0,0.9);
+    font-weight: bold;
+}
+.inner_list_right .detail_container .detail {
+    margin-left: 23px;
+}
+.inner_list_right .detail_container .detail>div .date {
+    margin-left: 85px;
+    margin-bottom: 10px;
+}
+.inner_list_right .detail_container .detail>div span a {
+    color: #be912e;
+}
+
+.inner_list_right .detail_container .detail>div {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.inner_list_right .detail_container .price i i {
+    font-size: 22px;
+}
+.inner_list_right .detail_container .price i span {
+    font-size: 18px;
+    color: #000000;
+}
+
+
+.inner_list_right .detail_container .price {
+    margin-top: 30px;
+}
+
+.inner_list_right .detail_container .detail>div span {
+    color: #be912e;
+}
+
+.inner_list_right .detail_container .price>i {
+    color: #BE912E;
+    /*font-size: 41px;*/
+   font-size: 22px;;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.inner_list_right .detail_container .price a {
+    font-size: 18px;
+    padding: 7px 20px;
+    background-color: #BE912E;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 20px;
+}
+
+#private_tour>div{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-top: -3px;
+}
+
+.filter_collum {
+    overflow: hidden;
+}
+.filter_collum>div>div {
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    color: #464646;
+    position: relative;
+}
+.inner_list_item {
+    position: relative;
+    width: 1100px;
+    background-color: #FFFFFF;
+    height: 309px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.inner_list_right {
+    width: 398px;
+}
+.left {
+    float: left;
+}
+.inner_list_right .detail_container {
+    padding: 22px 20px;
+}
+.inner_list_right .detail_container>a {
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #292929;
+}
+.inner_list_right .detail_container>p {
+    text-align: left;
+    text-indent: 1em;
+}
+
+.inner_list_right .detail_container>p>span {
+    color: #f18f00;
+    font-size: 14px;
+    padding: 2px 12px;
+    border: 1px solid #F18F00;
+    border-radius: 2px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-indent: 0;
+}
+.ellipsis-2 {
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal!important;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.filter_collum>div>div:first-child a {
+    display: inline-block;
+    width: 120px;
+    color: #121212;
+    font-size: 24px
+}
+
+#filterAll>a{
+	display: inline-block;
+	width: 147px;
+	font-size: 24px;
+	font-weight: bold;
+	height:50px;
+	line-height: 50px;
+	float: left;
+	color:#888888;
+	
+}
+/*#filterAll>a:nth-child(1){
+	background-color: #b99952;
+}*/
+
+#filterAll>.allList{
+	float: right;
+	font-weight: normal;
+	font-size: 22px;
+	
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.filter_collum>div>div:nth-child(2) {
+    border-top: 1px solid #000;
+    margin-top: 10px;
+    position: relative;
+}
+.header {
+    height: 703px;
+}
+.callmeblack {
+    height: 7px;
+    background-color: #000000;
+}
+.bg {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.info .bg>img:first-child {
+    position: relative;
+    left: -411px;
+    width: 1921px;
+    top: -3px;
+}
+img {
+    border: none;
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100px;
+    overflow: hidden;
+}
+.left_jiantou {
+    font-size: 30px;
+    padding: 15px 5px;
+    background-color: rgba(197,197,197,0.2);
+    position: absolute;
+    top: 34px;
+    left: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.right_jiantou {
+    font-size: 30px;
+    padding: 15px 5px;
+    background-color: rgba(197,197,197,0.2);
+    position: absolute;
+    top: 35px;
+    right: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.info_content {
+    width: 3300px;
+    height: 130px;
+    background:  background: url(http://cdn2.dameicdn.com/private-tour/img/private_bg.jpg) repeat;}
+    
+.info_content>div {
+    width: 1100px;
+    height: 120px;
+}
+.left {
+    float: left;
+}
+.clearfix:after, .clearfix:before {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.hover {
+    position: absolute;
+    top: -372px;
+    left: 0;
+}
+
+.come{
+margin-left: 1px;
+color:#000000;
+font-weight: normal;
+}
+.come1{
+margin-left: -11px;
+color:#000000;
+font-weight: normal;
+}
+/*小球旋转*/
+.flip-container,.front,.back{
+			height: 230px;
+			width: 230px;
+			float: left;
+			position: fixed;
+			top:300px;
+			left: 50px;
+			z-index: 10;
+			}
+		.flipper{
+			transition: 0.6s;
+			transform-style: preserve-3d;
+			position: relative;
+		}
+		.flip-container:hover .flipper, .flip-container.hover .flipper{
+			transform: rotateY(180deg);
+		}
+		.front{
+			z-index: 2;
+		}
+		.front,.back{
+			backface-visibility: hidden;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.back{
+			transform: rotateY(180deg);
+		}
+		
+/*复制*/
+
+
+.info .bg>img:first-child {
+    position: relative;
+    left: -411px;
+    width: 1921px;
+    top: -3px;
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100px;
+    overflow: hidden;
+}
+.left_jiantou {
+    font-size: 30px;
+    padding: 15px 5px;
+    background-color: rgba(197,197,197,0.2);
+    position: absolute;
+    top: 34px;
+    left: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.right_jiantou {
+    font-size: 30px;
+    padding: 15px 5px;
+    background-color: rgba(197,197,197,0.2);
+    position: absolute;
+    top: 35px;
+    right: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.info_content>div {
+    width: 1100px;
+    height: 120px;
+}
+.info_item1>div:first-child {
+    margin-left: 30px;
+}
+.front>img{
+	 display: block;
+    float: left;
+}
+
+.info_item1>div{
+    float: left;
+    width: 315px;
+    margin-top: 15px;
+    height: 105px;
+}
+.info_content>div>div>img {
+    display: block;
+    float: left;
+}
+.info_content>div>div>div {
+    float: left;
+    margin-top: 45px;
+    /* font-weight: bold; */
+    font-size: 18px;
+    color: #000000;
+    margin-left: 20px;
+}
+.info_content>div>div>img:hover {
+    transform: rotateY(360deg);
+    transition: 1.2s;
+    transform-style: preserve-3d;
+}
+.info_content>div>div>img {
+    display: block;
+    float: left;
+}
+.info_item2>div {
+    margin-left: 60px;
+    width: 300px;
+    height: 105px;
+    float: left;
+    margin-top: 15px;
+}
+.info_content>div>div>img {
+    display: block;
+    float: left;
+}
+.info_item2>span {
+    display: block;
+    float: left;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.info_item3>span {
+    display: block;
+    float: left;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 40px;
+}
+.info_content .info_item3>div>img {
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.info_content .info_item3>div>div {
+    color: #d0ae64;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+    float: none;
+}
+.info_content .info_item3>div {
+    display: inline-block;
+    width: 20%;
+    margin-left: 2%;
+    text-align: center;
+    height: 100px;
+    margin-top: 15px;
+}
